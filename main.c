@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-long int fact (int n){
+unsigned long long int fact (int n){
 
     unsigned long long result =1;
 
