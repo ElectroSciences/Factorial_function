@@ -21,9 +21,9 @@ int main()
 {
     int numb=0;
 
-    printf("which factorial do you want to know ?\n");
+    printf("which factorial do you want to know ?(strictly under 12 please)");
     scanf("%d", &numb);
     int result=fact(numb);
-    printf("The result of the operation is %d\n", result);
+    printf("The result of the operation is %d\n\n", result);
 
 }
